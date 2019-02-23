@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0; transition: 0.3s ease-in;}
+ul{list-style: none;}
+a{text-decoration: none; }
+body{font-family: calibri; background-color: #4499AE; font-family: 'Coiny', cursive;}
+.menu_top{background-color: #4499AE; height: 55px; width: 100%; display: table;}
+.img_top{background: url('../images/Mil.png'); height: 320px; width: 100%;margin-top: 65px;}
+#swf2{width: 100%; height: 600px;border: 5px solid #17677F;}
+.bg{margin-left: 80px; width: 800px; margin-top: -230px; float: left;}
+h1{color: #fff; margin-left: 80px; margin-top: -300px; float: left;}
+.menu_list ul li a{font-family: Arial; color: #fff; float: left; padding: 24px;}
+.menu_list ul li a:hover{background-color: #7cba67; transition: 0.3s ease-in;}
+.post{height: auto; padding-bottom: 20px; width: 100%; margin-top: 5px; background-color: #348199; display: table; font-family: Arial;}
+.top_post{height: 80px; width: 100%;   border-bottom: 1px solid #ffffff; display: table;}
+.user{border-radius: 100px; width: 110px; margin-top: -85px; margin-left: 10px; float: left;}
+.title{float: left; margin-left: 130px; margin-top: 45px; color: #fff; max-width: 670px;}
+.autor{margin-left: 130px; color: #fff; margin-top: 5px; font-weight: bold;}
+.description{margin: 0px auto; display: table; width: 90%; margin-top: 40px; color: #ebebeb;}
+.menu_left{width: 350px; height: 610px; font-family: arial; background-color: #DEEEEF; float: left; margin-left: 10px; margin-top: -230px;}
+.ml_top{height: 60px; width: 100%; background-color: #4499AE;}
+.ml_top h3{margin-top: 20px; margin-left: 10px; float: left; color: #fff;}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer .social [class^="incon"] {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1258px) {
+    .menu_left{width: 24%;}
+}
+@media screen and (max-width: 1178px) {
+    .menu_left{display: none;}
+}
+
+@media screen and (max-width: 900px) {
+    .bg{margin: 0px auto; display: table; width: 90%; margin-left: 35px; margin-top: -230px;}
+    h1{margin-left: 32px;}
+}
+@media screen and (max-width: 700px) {
+    .bg{margin: 0px auto; display: table; width: 90%; margin-left: 35px; margin-top: -230px;}
+    #swf2{height: 450px;}
+}
